@@ -1,9 +1,9 @@
-pi = 3.14
+import tkinter as tk
 
-print("Привет из модуля!")
-
-def summa(a, b):
-    return a + b
+def module_entry():
+    window = tk.Toplevel()
+    window.title("Поля ввода")
+    window.geometry("300x200")
 
 
 if __name__ == "__main__":
